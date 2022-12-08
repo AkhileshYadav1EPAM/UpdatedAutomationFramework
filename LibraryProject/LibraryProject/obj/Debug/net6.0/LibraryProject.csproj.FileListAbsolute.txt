@@ -1,0 +1,15 @@
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.csproj.AssemblyReference.cache
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.AssemblyInfoInputs.cache
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.AssemblyInfo.cs
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.csproj.CoreCompileInputs.cache
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\LibraryProject.deps.json
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\LibraryProject.dll
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\LibraryProject.pdb
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.dll
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\refint\LibraryProject.dll
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.pdb
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\ref\LibraryProject.dll
