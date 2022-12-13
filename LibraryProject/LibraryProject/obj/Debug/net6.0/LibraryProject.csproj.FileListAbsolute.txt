@@ -13,3 +13,4 @@ C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\Automati
 C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\refint\LibraryProject.dll
 C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\LibraryProject.pdb
 C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\obj\Debug\net6.0\ref\LibraryProject.dll
+C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\LibraryProject\bin\Debug\net6.0\LibraryProject.dll.config

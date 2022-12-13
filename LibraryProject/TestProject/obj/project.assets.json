@@ -1636,6 +1636,19 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "RazorEngine.NetCore/2.2.6": {
         "type": "package",
         "dependencies": {
@@ -3657,10 +3670,11 @@
           "lib/netstandard2.1/WebDriverManager.dll": {}
         }
       },
-      "LibraryProject/1.0.0": {
+      "AmazonLibraryProject/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
           "Selenium.Support": "4.7.0",
           "Selenium.WebDriver": "4.7.0",
           "Selenium.WebDriver.ChromeDriver": "108.0.5359.7100",
@@ -3669,10 +3683,28 @@
           "WebDriverManager": "2.16.2"
         },
         "compile": {
-          "bin/placeholder/LibraryProject.dll": {}
+          "bin/placeholder/AmazonLibraryProject.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LibraryProject.dll": {}
+          "bin/placeholder/AmazonLibraryProject.dll": {}
+        }
+      },
+      "CommonFramework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AmazonLibraryProject": "1.0.0",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "Selenium.Support": "4.7.0",
+          "Selenium.WebDriver": "4.7.0",
+          "Selenium.WebDriver.ChromeDriver": "108.0.5359.7100",
+          "Selenium.WebDriver.GeckoDriver": "0.32.0"
+        },
+        "compile": {
+          "bin/placeholder/CommonFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonFramework.dll": {}
         }
       }
     }
@@ -5622,6 +5654,29 @@
         "build/netcoreapp2.1/testcentric.engine.metadata.dll",
         "nunit3testadapter.4.2.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "sha512": "1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "type": "package",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net461/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net461/Polly.Contrib.WaitAndRetry.xml",
+        "lib/net472/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net472/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net472/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.xml",
+        "polly.contrib.waitandretry.1.1.1.nupkg.sha512",
+        "polly.contrib.waitandretry.nuspec"
       ]
     },
     "RazorEngine.NetCore/2.2.6": {
@@ -10525,20 +10580,27 @@
         "webdrivermanager.nuspec"
       ]
     },
-    "LibraryProject/1.0.0": {
+    "AmazonLibraryProject/1.0.0": {
       "type": "project",
-      "path": "../LibraryProject/LibraryProject.csproj",
-      "msbuildProject": "../LibraryProject/LibraryProject.csproj"
+      "path": "../LibraryProject/AmazonLibraryProject.csproj",
+      "msbuildProject": "../LibraryProject/AmazonLibraryProject.csproj"
+    },
+    "CommonFramework/1.0.0": {
+      "type": "project",
+      "path": "../CommonFramework/CommonFramework.csproj",
+      "msbuildProject": "../CommonFramework/CommonFramework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AmazonLibraryProject >= 1.0.0",
+      "CommonFramework >= 1.0.0",
       "ExtentReports >= 4.1.0",
-      "LibraryProject >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "Polly.Contrib.WaitAndRetry >= 1.1.1",
       "Selenium.Support >= 4.7.0",
       "Selenium.WebDriver >= 4.7.0",
       "Selenium.WebDriver.ChromeDriver >= 108.0.5359.7100",
@@ -10554,9 +10616,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\AmazonTestProject.csproj",
+      "projectName": "AmazonTestProject",
+      "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\AmazonTestProject.csproj",
       "packagesPath": "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
@@ -10580,8 +10642,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj": {
-              "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj"
+            "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\CommonFramework\\CommonFramework.csproj": {
+              "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\CommonFramework\\CommonFramework.csproj"
+            },
+            "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj": {
+              "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj"
             }
           }
         }
@@ -10615,6 +10680,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.2.1, )"
+          },
+          "Polly.Contrib.WaitAndRetry": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Selenium.Support": {
             "target": "Package",

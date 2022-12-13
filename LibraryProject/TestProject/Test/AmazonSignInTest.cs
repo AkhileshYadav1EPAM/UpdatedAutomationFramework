@@ -28,7 +28,7 @@ namespace TestProject.Test
 
             try
             {
-                amazonSignInPage.TypeTheCredentials("akhileshkumar@gmial.com", "qwerty123");
+                amazonSignInPage.TypeTheCredentials("modiji@gmial.com", "qwerty123");
             }
             catch (TimeoutException e)
             {

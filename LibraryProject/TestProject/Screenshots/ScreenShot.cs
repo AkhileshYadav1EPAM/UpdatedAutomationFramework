@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using NUnit.Framework.Interfaces;
 using TestProject.Test.BaseTestClass;
-using LibraryProject.Pages;
+using LibraryProject.Base;
 
 namespace AutomationFramework.Screenshots
 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3BB5wv+b9lYe92Ed/J68TxHID5mDdWWCaMV42qa6zA8WzOaTBmqafwOshnvA7nYJFoaFFqko+BysR7BN5hrOiw==",
+  "dgSpecHash": "Mm7PZuH4Nt97cZ46lGB1xjruaHZJT0elSHfE+vf1VzCMHPIR/Gp5KJLeEb8Zz53h/7i9+tgXaWbtcJ+YqcrG6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\AmazonTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -85,6 +85,7 @@
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\polly.contrib.waitandretry.1.1.1.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\razorengine.netcore\\2.2.6\\razorengine.netcore.2.2.6.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

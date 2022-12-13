@@ -4,12 +4,12 @@
     "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj": {
+    "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj",
-        "projectName": "LibraryProject",
-        "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj",
+        "projectUniqueName": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj",
+        "projectName": "AmazonLibraryProject",
+        "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj",
         "packagesPath": "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\obj\\",
         "projectStyle": "PackageReference",
@@ -119,8 +119,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj": {
-                "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj"
+              "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj": {
+                "projectPath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj"
               }
             }
           }

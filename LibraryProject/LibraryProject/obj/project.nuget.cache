@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "R2FhNDxOIuMn7i35uKzDvna5O50FmBPYfEPxbYdXr7a6xY/dg5cwpOpGal0IofznJ0bdueOVBm4ZqrgK0VY4kg==",
+  "dgSpecHash": "NtidiQGuL/pY8NjLwwE6WDirhK+gmjoyHbk93Q9Iunuo/s8gVmxZzz5LNXUf4cmIF1vo+TVgrYj510q6TTBUQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\LibraryProject.csproj",
+  "projectFilePath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\LibraryProject\\AmazonLibraryProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\polly.contrib.waitandretry.1.1.1.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\selenium.support\\4.7.0\\selenium.support.4.7.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\selenium.webdriver\\4.7.0\\selenium.webdriver.4.7.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\selenium.webdriver.chromedriver\\108.0.5359.7100\\selenium.webdriver.chromedriver.108.0.5359.7100.nupkg.sha512",
