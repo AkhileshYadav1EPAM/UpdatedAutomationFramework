@@ -1,5 +1,5 @@
-﻿using AutomationFramework.Screenshots;
-using AventStack.ExtentReports;
+﻿using AventStack.ExtentReports;
+using CommonFramework.Report;
 using LibraryProject.Pages;
 using OpenQA.Selenium;
 using System;
@@ -7,8 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestProject.Report;
 using TestProject.Test.BaseTestClass;
+using CommonFramework.Utilities.PageUtilityClass;
+using CommonFramework.Screenshots;
 
 namespace TestProject.Test
 {
@@ -28,7 +29,9 @@ namespace TestProject.Test
 
             try
             {
-                amazonSignInPage.TypeTheCredentials("modiji@gmial.com", "qwerty123");
+                amazonSignInPage.ClickOnSignInButton();
+                amazonSignInPage.EnterTheEmail("ModiJi@gmail.com");
+                amazonSignInPage.EnterThePassword("123456");
             }
             catch (TimeoutException e)
             {

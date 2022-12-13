@@ -15,19 +15,26 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="Polly.Contrib.WaitAndRetry" Version="1.1.1" />
     <PackageReference Include="Selenium.Support" Version="4.7.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.7.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="108.0.5359.7100" />
     <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.32.0" />
+    <PackageReference Include="SpecFlow" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
     <PackageReference Include="WebDriverManager" Version="2.16.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonFramework\CommonFramework.csproj" />
     <ProjectReference Include="..\LibraryProject\AmazonLibraryProject.csproj" />
   </ItemGroup>
 
-	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="App.config" DestinationFiles="$(OutDir)\testhost.dll.config" />
-	</Target>
+  <ItemGroup>
+    <Folder Include="BDD\Features\" />
+  </ItemGroup>
+
+	
 
 </Project>

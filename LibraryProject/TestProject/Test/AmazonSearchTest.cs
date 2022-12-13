@@ -1,17 +1,17 @@
-﻿using AutomationFramework.Screenshots;
-using AventStack.ExtentReports;
+﻿using AventStack.ExtentReports;
+using CommonFramework.Report;
 using LibraryProject.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestProject.Report;
 using TestProject.Test.BaseTestClass;
+using CommonFramework.Screenshots;
 
 namespace TestProject.Test
 {
-    public  class AmazonSearchTest : BaseTest
+    public class AmazonSearchTest : BaseTest
     {
         [Test]
         public void TestAmazonSearch()

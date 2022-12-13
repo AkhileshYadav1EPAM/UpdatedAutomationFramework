@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonLibraryProject", "Lib
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonTestProject", "TestProject\AmazonTestProject.csproj", "{6EAB0C89-0729-485B-AA65-4F10778CBD1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFramework", "CommonFramework\CommonFramework.csproj", "{49DF7D53-5683-44E0-9FB5-C8B8DAD9621F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6EAB0C89-0729-485B-AA65-4F10778CBD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAB0C89-0729-485B-AA65-4F10778CBD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAB0C89-0729-485B-AA65-4F10778CBD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DF7D53-5683-44E0-9FB5-C8B8DAD9621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DF7D53-5683-44E0-9FB5-C8B8DAD9621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DF7D53-5683-44E0-9FB5-C8B8DAD9621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DF7D53-5683-44E0-9FB5-C8B8DAD9621F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

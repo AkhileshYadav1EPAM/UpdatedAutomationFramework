@@ -1,5 +1,5 @@
-﻿using OpenQA.Selenium;
-using LibraryProject.Utilities.PageUtilityClass;
+﻿using CommonFramework.Utilities.PageUtilityClass;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace LibraryProject.Pages
 {
     public class AmazonSearchPage : PageUtility
     {
-        By element;
+        //By element;
 
         #region Locators
         private By searchBar => By.XPath("//*[@id=\"twotabsearchtextbox\"]");
@@ -22,6 +22,7 @@ namespace LibraryProject.Pages
         public void EnterTextInSearchBar(string searchText)
         {
             SendKeysToField(searchBar, searchText);
+
         }
 
         public void ClickOnSearchButton()
