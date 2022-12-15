@@ -18,13 +18,19 @@ namespace CommonFramework.Base
             extentReport.test = extentReport.report.CreateTest(testName).Info("Test Started");
         }
 
-        public void ExtentReportStop()
+        public void ExtentReportStop(MediaEntityModelProvider mediaEntity)
         {
             if (extentReport.test.Status == Status.Pass)
+            {
                 extentReport.test.Log(Status.Pass, "SearchTest Passed");
+                extentReport.test.Log(Status.Pass, "SrceenShot of the test", mediaEntity);
+            }
             else
+            {
                 extentReport.test.Log(Status.Fail, "SearchTest Fails");
-
+                extentReport.test.Log(Status.Fail, "SrceenShot of the test", mediaEntity);
+            }
+                
             extentReport.ExtentClose();
         }
     }

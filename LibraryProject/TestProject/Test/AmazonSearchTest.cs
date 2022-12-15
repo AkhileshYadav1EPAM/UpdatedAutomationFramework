@@ -20,14 +20,14 @@ namespace TestProject.Test
             AmazonSearchPage amazonSearchPage = new AmazonSearchPage();
             ExtentReportBasePage extentReportBasePage = new ExtentReportBasePage();
 
-            extentReportBasePage.ExtentReportInitialisation("AmazonSearchTest");
+            extentReportBasePage.ExtentReportInitialisation("Amazon Search Test In NUnit");
 
             NavigateToURL("https://www.amazon.in/");
             amazonSearchPage.EnterTextInSearchBar("C# book");
             amazonSearchPage.ClickOnSearchButton();
-            ScreenShot.TakeScreenShot();
+            var mediaEntity = ScreenShot.TakeScreenShot();
 
-            extentReportBasePage.ExtentReportStop();
+            extentReportBasePage.ExtentReportStop(mediaEntity);
         }
     }
 }

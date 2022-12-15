@@ -1,4 +1,5 @@
 using CommonFramework.Base;
+using CommonFramework.Screenshots;
 using LibraryProject.Pages;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -20,7 +21,7 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         public void GivenUserIsOnTheHomePage()
         {
             basePage.Start();
-            extentReportBasePage.ExtentReportInitialisation("AmazonSearchTest");
+            extentReportBasePage.ExtentReportInitialisation("Amazon Search Test In BDD");
             NavigateToURL(targetURL);
         }
 
@@ -40,7 +41,9 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         [Then(@"Searched item get populated")]
         public void ThenSearchedItemGetPopulated()
         {
-            extentReportBasePage.ExtentReportStop();
+            var mediaEntity = ScreenShot.TakeScreenShot();
+
+            extentReportBasePage.ExtentReportStop(mediaEntity);
             driver.Close();
         }
 

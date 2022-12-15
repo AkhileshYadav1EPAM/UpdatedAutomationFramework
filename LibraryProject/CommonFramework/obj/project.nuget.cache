@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dfv+G/YLJ7me8MVaQvQg0rtJkULb9skryidYQY6Bi2JzAmCEhz8ctRix/PFEF1q4nCE5WSDLAnUcfVGn+Xj2Rw==",
+  "dgSpecHash": "nEuVzOcWngZa4dwUT2I4oK/kl2EmW4e/NgCY0KScM5obdTksC62fiMM7CukDdl07wsU4MT2KuAKbqI/7VOHR4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\CommonFramework\\CommonFramework.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\extentreports\\4.1.0\\extentreports.4.1.0.nupkg.sha512",
+    "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\extentreports.core\\1.0.3\\extentreports.core.1.0.3.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\Akhilesh_Yadav1\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

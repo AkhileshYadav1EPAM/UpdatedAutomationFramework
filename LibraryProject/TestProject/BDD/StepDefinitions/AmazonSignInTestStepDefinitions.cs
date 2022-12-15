@@ -1,4 +1,5 @@
 using CommonFramework.Base;
+using CommonFramework.Screenshots;
 using LibraryProject.Pages;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -21,7 +22,7 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         public void GivenUserIsOnThePageHttpsWww_Amazon_In()
         {
             basePage.Start();
-            extentReportBasePage.ExtentReportInitialisation("AmazonSignInTest");
+            extentReportBasePage.ExtentReportInitialisation("Amazon SignIn Test In BDD");
             NavigateToURL(targetURL);
         }
 
@@ -46,7 +47,8 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         [Then(@"LogIn unsuccessful message is displayed")]
         public void ThenLogInUnsuccessfulMessageIsDisplayed()
         {
-            extentReportBasePage.ExtentReportStop();
+            var mediaEntity = ScreenShot.TakeScreenShot();
+            extentReportBasePage.ExtentReportStop(mediaEntity);
             driver.Close();
         }
 

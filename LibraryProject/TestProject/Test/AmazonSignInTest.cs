@@ -22,15 +22,15 @@ namespace TestProject.Test
             AmazonSignInPage amazonSignInPage = new AmazonSignInPage();
             ExtentReportBasePage extentReportBasePage = new ExtentReportBasePage();
 
-            extentReportBasePage.ExtentReportInitialisation("AmazonSignInTest");
+            extentReportBasePage.ExtentReportInitialisation("Amazon SignIn Test In NUnit");
 
             NavigateToURL("https://www.amazon.in/");
             amazonSignInPage.ClickOnSignInButton();
             amazonSignInPage.EnterTheEmail("ModiJi@gmail.com");
             amazonSignInPage.EnterThePassword("123456");
-            ScreenShot.TakeScreenShot();
+            var mediaEntity = ScreenShot.TakeScreenShot();
 
-            extentReportBasePage.ExtentReportStop();
+            extentReportBasePage.ExtentReportStop(mediaEntity);
         }
     }
 }

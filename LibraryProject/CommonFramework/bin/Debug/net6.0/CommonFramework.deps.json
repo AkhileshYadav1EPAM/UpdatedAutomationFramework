@@ -9,6 +9,7 @@
       "CommonFramework/1.0.0": {
         "dependencies": {
           "ExtentReports": "4.1.0",
+          "ExtentReports.Core": "1.0.3",
           "NUnit": "3.13.3",
           "Polly.Contrib.WaitAndRetry": "1.1.1",
           "Selenium.Support": "4.7.0",
@@ -68,6 +69,16 @@
             "assemblyVersion": "4.1.0.0",
             "fileVersion": "4.1.0.0"
           }
+        }
+      },
+      "ExtentReports.Core/1.0.3": {
+        "dependencies": {
+          "MongoDB.Bson": "2.10.0",
+          "MongoDB.Driver": "2.10.0",
+          "MongoDB.Driver.Core": "2.10.0",
+          "Newtonsoft.Json": "13.0.1",
+          "RazorEngine.NetCore": "2.2.6",
+          "System.Configuration.ConfigurationManager": "7.0.0"
         }
       },
       "Gherkin/19.0.3": {
@@ -2126,6 +2137,13 @@
       "sha512": "sha512-RPNZp1yOW+buz3ak86cthU7JHM0tL3ZmlFjCiT3pUDZTDwitDcTxGSeerRnueOu84WttWHostyN8d75WHdAJCw==",
       "path": "extentreports/4.1.0",
       "hashPath": "extentreports.4.1.0.nupkg.sha512"
+    },
+    "ExtentReports.Core/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2aRCTBHGRUdSAZHPWExRy2PX9cbuBNouFXa/3NMLGl4lhZbjEmrZPLlFgglPfDXRriw6DtqI1GGfxpitBx2CgA==",
+      "path": "extentreports.core/1.0.3",
+      "hashPath": "extentreports.core.1.0.3.nupkg.sha512"
     },
     "Gherkin/19.0.3": {
       "type": "package",

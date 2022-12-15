@@ -12,15 +12,11 @@ namespace CommonFramework.Screenshots
 {
     public class ScreenShot : BasePage
     {
-        public static void TakeScreenShot()
+        public static MediaEntityModelProvider TakeScreenShot()
         {
-            Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
-            string workingDirectory = Environment.CurrentDirectory;
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
-            string screenshotPath = projectDirectory + "//screenshot.png";
-            screenshot.SaveAsFile(screenshotPath, ScreenshotImageFormat.Png);
+            var screenshot = ((ITakesScreenshot)driver).GetScreenshot().AsBase64EncodedString;
 
-            ExtentReportBasePage.extentReport.test.Log(Status.Info, "Screenshot is taken for reference");
+            return MediaEntityBuilder.CreateScreenCaptureFromBase64String(screenshot, "Test Screenshot").Build();
         }
     }
 }
