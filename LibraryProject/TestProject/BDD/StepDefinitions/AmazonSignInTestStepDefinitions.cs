@@ -13,6 +13,7 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
     {
         BasePage basePage = new BasePage();
         AmazonSignInPage amazonSignInPage = new AmazonSignInPage();
+        ExtentReportBasePage extentReportBasePage = new ExtentReportBasePage();
         AmazonSearchPage searchPage = new AmazonSearchPage();
         string targetURL = "https://www.amazon.in/";
 
@@ -20,6 +21,7 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         public void GivenUserIsOnThePageHttpsWww_Amazon_In()
         {
             basePage.Start();
+            extentReportBasePage.ExtentReportInitialisation("AmazonSignInTest");
             NavigateToURL(targetURL);
         }
 
@@ -44,6 +46,7 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         [Then(@"LogIn unsuccessful message is displayed")]
         public void ThenLogInUnsuccessfulMessageIsDisplayed()
         {
+            extentReportBasePage.ExtentReportStop();
             driver.Close();
         }
 

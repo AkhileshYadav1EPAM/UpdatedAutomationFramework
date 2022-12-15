@@ -1,4 +1,7 @@
-﻿using OpenQA.Selenium;
+﻿using AventStack.ExtentReports;
+using CommonFramework.Base;
+using CommonFramework.Report;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,23 +14,16 @@ namespace CommonFramework.Utilities.PageUtilityClass
     {
         public static IWebDriver driver;
 
-        //protected IJavaScriptExecutor executor => (IJavaScriptExecutor)driver;
-        //protected WebDriverWait wait;
-
         public static void NavigateToURL(string url)
         {
             driver.Navigate().GoToUrl(url);
+            //ExtentReportBasePage.extentReport.test.Log(Status.Info, "Amazon.com is launched");
         }
 
         public static void ClickOnElement(By element)
         {
             driver.FindElement(element).Click();
         }
-
-        /*public void ClickOnElementUsingJS(By element)
-        {
-            executor.ExecuteScript("arguments[0].click()", driver.FindElement(element));
-        }*/
 
         public static void SendKeysToField(By element, string text)
         {

@@ -1,4 +1,6 @@
-﻿using CommonFramework.Utilities.PageUtilityClass;
+﻿using AventStack.ExtentReports;
+using CommonFramework.Base;
+using CommonFramework.Utilities.PageUtilityClass;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -25,21 +27,21 @@ namespace LibraryProject.Pages
         {
             AmazonSearchPage searchPage = new AmazonSearchPage();
             ClickOnElement(searchPage.signInButton);
-            
-           /* wait = wait.ShorterWait();
-            wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(passwordText));*/
+            ExtentReportBasePage.extentReport.test.Log(Status.Info, "SignIn button is clicked");
         }
 
         public void EnterTheEmail(string email)
         {
             SendKeysToField(emailId, email);
             ClickOnElement(continueButton);
+            ExtentReportBasePage.extentReport.test.Log(Status.Info, "Email has been entered");
         }
 
         public void EnterThePassword(string password)
         {
             SendKeysToField(passwordText, password);
             ClickOnElement(signInButtonFinal);
+            ExtentReportBasePage.extentReport.test.Log(Status.Info, "Password has been entered");
         }
 
 

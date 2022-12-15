@@ -1,4 +1,6 @@
-﻿using CommonFramework.Base;
+﻿using AventStack.ExtentReports;
+using CommonFramework.Base;
+using CommonFramework.Report;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -13,8 +15,12 @@ namespace CommonFramework.Screenshots
         public static void TakeScreenShot()
         {
             Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
-            screenshot.SaveAsFile("C:\\Users\\Akhilesh_Yadav1\\Desktop\\C# Example Codes\\1 - Selenium projects\\AutomationFramework\\LibraryProject\\CommonFramework\\Screenshots\\screenshot.png", ScreenshotImageFormat.Png);
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+            string screenshotPath = projectDirectory + "//screenshot.png";
+            screenshot.SaveAsFile(screenshotPath, ScreenshotImageFormat.Png);
 
+            ExtentReportBasePage.extentReport.test.Log(Status.Info, "Screenshot is taken for reference");
         }
     }
 }

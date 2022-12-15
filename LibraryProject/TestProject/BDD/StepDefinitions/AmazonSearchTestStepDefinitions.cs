@@ -13,12 +13,14 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
     {
         BasePage basePage = new BasePage();
         AmazonSearchPage amazonSearchPage = new AmazonSearchPage();
+        ExtentReportBasePage extentReportBasePage = new ExtentReportBasePage();
         string targetURL = "https://www.amazon.in/";
 
         [Given(@"User is on the home page")]
         public void GivenUserIsOnTheHomePage()
         {
             basePage.Start();
+            extentReportBasePage.ExtentReportInitialisation("AmazonSearchTest");
             NavigateToURL(targetURL);
         }
 
@@ -38,6 +40,7 @@ namespace LoginSwagLabsSpecFlow.StepDefinitions
         [Then(@"Searched item get populated")]
         public void ThenSearchedItemGetPopulated()
         {
+            extentReportBasePage.ExtentReportStop();
             driver.Close();
         }
 

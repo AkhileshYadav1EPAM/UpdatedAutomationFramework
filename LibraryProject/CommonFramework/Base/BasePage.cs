@@ -36,7 +36,7 @@ namespace CommonFramework.Base
 
                 case "Chrome":
                     new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
-                    driver = new ChromeDriver();
+                    driver = new ChromeDriver   ();
                     break;
 
                 case "Edge":
