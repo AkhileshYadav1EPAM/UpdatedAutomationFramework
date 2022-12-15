@@ -13,14 +13,12 @@ namespace CommonFramework.Report
     {
         public ExtentReports report = null;
         public ExtentTest test = null;
+        const string reportPath = @"C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\CommonFramework\Report\";
         [OneTimeSetUp]
         public void ExtentStart()
         {
             report = new ExtentReports();
-            /*string workingDirectory = Environment.CurrentDirectory;
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
-            string reportPath = projectDirectory + "//index.html";*/
-            var htmlReporter = new ExtentHtmlReporter(@"C:\Users\Akhilesh_Yadav1\Desktop\C# Example Codes\1 - Selenium projects\AutomationFramework\LibraryProject\CommonFramework\Report\");
+            var htmlReporter = new ExtentHtmlReporter(reportPath);
             report.AttachReporter(htmlReporter);
         }
         [OneTimeTearDown]
